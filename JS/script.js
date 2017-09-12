@@ -25,6 +25,8 @@ $(document).ready(function() {
     .then(displayDogsInfo())
     .catch(function(error){
         console.log('ERROR', error);
+        console.log(error);
+        // something
     });
     
     function displayName(){
