@@ -1,0 +1,315 @@
+*{
+	margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.clear {
+	clear: both;
+}
+
+			/*body */
+
+body {
+	font-family: sans-serif, Arial ;
+	color: #00fefe;
+	background-color: #fe0044;
+	background-image: url("1.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+			/*header*/
+
+header {
+	background-color: #fe0e44;
+	background-image: url("2.jpg");
+	background-size: cover;
+	width: 66%;
+	height: 85px;
+	position: fixed;
+	top: 0px;
+	left: 17%;
+	z-index: 1;
+}
+
+h1 {
+	position: relative;
+	top: 15px;
+	color: #00fefe;
+	padding-bottom: 40px;
+}
+
+
+			/*nav */
+	
+nav {
+	background-color: white;
+	background-image: url('y5.jpg');
+	background-size: cover;
+	font-weight: bold;
+	display: inline-block;
+	width: 66%;
+	height: 45px;
+	position: fixed;
+	top: 85px;
+	left: 17%;
+	z-index: 1;
+}
+
+nav h2{
+	display: none;
+}
+	
+nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	float: left;
+	width: 130px;
+}
+
+nav li ul li{
+	float: none;
+	width: 150px
+}
+	
+nav a{
+	text-decoration: none;
+}	
+
+nav li ul{
+	visibility: hidden;
+}
+	
+nav li:hover ul{
+	visibility: visible;
+}
+
+nav li a:link, nav li a:visited{
+    color: #000;
+    text-decoration: none;
+    cursor: hand;
+}
+
+nav li a:hover, nav li a:active{
+	    color: cyan;
+}
+	
+
+		/*article */
+	
+article{
+	display: block;
+	border-right: 1px solid SlateGray;
+	position: relative;
+	top: 140px;
+	left: 17%;
+	width: 44%;
+	height: 700px;
+}	
+
+
+article  p {
+	text-align: justify;
+}
+
+.presentationImage{
+	position: absolute;
+	top: 50px;
+	margin: 10px;
+	
+}
+
+.introToMyBlog {
+	text-align: justify;
+	padding-top: 10px;
+	position: absolute;
+	top: 45px;
+	left: 245px;
+	max-width: 56%;
+	min-width: 20%;
+	height: 300px;
+}
+
+.introToMyBlog a{
+	text-decoration: none;
+	color: black;
+}
+
+.introToMyBlog a:hover{
+	color: cyan;
+}
+
+.contestImage{
+	position: absolute;
+	top: 360px;
+	margin: 10px;
+}
+
+.someQualities {
+	text-align: justify;
+	padding-top: 10px;
+	position: absolute;
+	top: 360px;
+	left: 440px;
+	width: 25%;
+	height: 300px;
+}
+
+/*aside */
+
+aside{
+	display: block;
+	padding-top: 10px;
+	width: 21%;
+	height: 355px;
+	position: absolute;
+	top: 140px;
+	right: 17%;
+}
+
+aside h3 {
+	padding-bottom: 15px;
+}
+
+#comments {
+	width: 260px;
+	height: 100px;
+	border: 1px solid SlateGray;
+	margin: 10px auto 10px auto;
+}
+
+#blog-roll{
+	width: 260px;
+	margin: auto;
+}
+
+#blog-roll a{
+	text-decoration: none;
+}
+
+#blog-roll a:hover{
+	color: cyan;
+}
+
+footer{
+	position: absolute;
+	left:17%;
+	width: 66%;
+	bottom: -200px;
+	border: 1px solid SlateGray;
+}
+
+   /*article page Contact */
+   
+.homeLocation{
+	position: absolute;
+	top: 50px;
+	margin: 10px;
+	
+}
+
+.swimLocation{
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	margin: 10px;
+	
+}
+
+.hillLocation{
+	position: absolute;
+	top: 400px;
+	left: 0px;
+	margin: 10px;
+	
+}
+
+.hillLocationDetails{
+	text-align: justify;
+	padding-top: 10px;
+	position: absolute;
+	top: 345px;
+	left: 0px;
+	width: 50%;
+}
+.writeOnMyBlog{
+	text-align: justify;
+	padding-top: 10px;
+	position: absolute;
+	top: 430px;
+	left: 290px;
+	width: 45%;
+}
+
+	/*article page photos*/
+
+.hide-me{
+    visibility: hidden;
+}
+
+
+
+.Pupster {
+    position: absolute;
+    top: 35px;
+    right: 22px;
+    width: 45%;
+}
+
+.Barky {
+    position: absolute;
+    top: 255px;
+    right: 85px;
+    width: 45%;
+}
+
+.Woof {
+    position: absolute;
+    top: 430px;
+    right: 50px;
+    width: 49%;
+}
+
+#divPupster {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 45%;
+}
+#divBarky {
+    position: absolute;
+    top: 265px;
+    left: 0px;
+    width: 40%;
+}
+#divWoof {
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    width: 41%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
